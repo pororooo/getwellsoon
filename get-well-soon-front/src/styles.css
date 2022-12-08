@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  /* background-image: url("./assets/violet4.png"); */
+  font-family: 'Montserrat Alternates', sans-serif;  
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  min-height: 100vh;
+}
+
+.menu{
+  height: 15vh;
+  
+}
+
+h1{
+  margin-left: 50px;
+  color:rgb(167, 52, 193);
+}
+
+.button-disorders{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  font-size: 18px;
+  font-weight: 700;
+  width: 1200px;
+  height: 100px;
+  color: #ffffff;
+  background-color: rgb(167, 52, 193);
+  border-radius: 50px;
+  border: none;
+  margin: 10px
+}
+.button-disorders:hover{
+  color:rgb(167, 52, 193);
+  background-color: rgb(255, 255, 255);
+  border: solid rgb(167, 52, 193);
+
+}
+
+.options{
+  /* height: 15vh; */
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  /* flex-wrap: wrap; */
+}
+.options button{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  font-size: 14px;
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  color:rgb(167, 52, 193);
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border: solid rgb(167, 52, 193);
+  margin: 10px
+}
+
+.options button:hover{
+  color:rgb(255, 255, 255);
+  background-color: rgb(167, 52, 193);
+}
+
+
+/* info-disorders */
+.info-disorders{
+  display: flex;
+  width: 1000px;
+  border-radius: 25px;
+  padding: 30px 100px;
+  height: auto;
+  background-color: #ffffff;
+  border: solid rgb(0, 0, 0);
+  flex-direction: column;
+  }
+.disorder-name{
+  color: rgb(167, 52, 193);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.disorder-description{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  width: 500px;
+  margin: 10px 0;
+}
+.disorder-link{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  color: rgb(0, 0, 0);
+  font-style:none ;
+  font-size: 18px;
+  width: 500px;
+  margin: 10px 0;
+}
+.disorder-link a{ 
+  color: rgb(0, 0, 0);
+}
+
+
+
+/* articles */
+.articles{
+  display: flex;
+  width: 1000px;
+  border-radius: 25px;
+  padding: 30px 100px;
+  height: auto;
+  background-color: #ffffff;
+  border: solid rgb(0, 0, 0);
+  flex-direction: column;
+  }
+.articles-name{
+  color: rgb(167, 52, 193);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.articles-link{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  color: rgb(0, 0, 0);
+  font-style:none ;
+  font-size: 18px;
+  width: 500px;
+  margin: 10px 0;
+}
+.articles-link a{ 
+  color: rgb(0, 0, 0);
+}
+
+
+/* advices */
+
+.advices{
+  display: flex;
+  width: 1000px;
+  border-radius: 25px;
+  padding: 30px 100px;
+  height: auto;
+  background-color: #ffffff;
+  border: solid rgb(0, 0, 0);
+  flex-direction: column;
+  }
+.advices-name{
+  color: rgb(167, 52, 193);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.advices-description{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  width: 500px;
+  margin: 10px 0;
+}
+.articles-link{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  color: rgb(0, 0, 0);
+  font-style:none ;
+  font-size: 18px;
+  width: 500px;
+  margin: 10px 0;
+}
+.articles-link a{ 
+  color: rgb(0, 0, 0);
+}
+
+
+/* psychologists */
+.psychologists{
+  display: flex;
+  width: 1000px;
+  border-radius: 25px;
+  padding: 30px 100px;
+  height: auto;
+  background-color: #ffffff;
+  border: solid rgb(0, 0, 0);
+  flex-direction: column;
+  }
+.psychologists-name{
+  color: rgb(167, 52, 193);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.psychologists-link{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  color: rgb(0, 0, 0);
+  font-style:none ;
+  font-size: 18px;
+  width: 500px;
+  margin: 10px 0;
+}
+.psychologists-link a{ 
+  color: rgb(0, 0, 0);
+}
+
+
+/* psychiatrists */
+.psychiatrists{
+  display: flex;
+  width: 1000px;
+  border-radius: 25px;
+  padding: 30px 100px;
+  height: auto;
+  background-color: #ffffff;
+  border: solid rgb(0, 0, 0);
+  flex-direction: column;
+  }
+.psychiatrists-name{
+  color: rgb(167, 52, 193);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.psychiatrists-link{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  color: rgb(0, 0, 0);
+  font-style:none ;
+  font-size: 18px;
+  width: 500px;
+  margin: 10px 0;
+}
+.psychiatrists-link a{ 
+  color: rgb(0, 0, 0);
+}
+
+
+/* clinics */
+.clinics{
+  display: flex;
+  width: 1000px;
+  border-radius: 25px;
+  padding: 30px 100px;
+  height: auto;
+  background-color: #ffffff;
+  border: solid rgb(0, 0, 0);
+  flex-direction: column;
+  }
+.clinics-name{
+  color: rgb(167, 52, 193);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.clinics-link{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  color: rgb(0, 0, 0);
+  font-style:none ;
+  font-size: 18px;
+  width: 500px;
+  margin: 10px 0;
+}
+.clinics-link a{ 
+  color: rgb(0, 0, 0);
+}
+
+/* pocasts */
+.podcasts{
+  display: flex;
+  width: 1000px;
+  border-radius: 25px;
+  padding: 30px 100px;
+  height: auto;
+  background-color: #ffffff;
+  border: solid rgb(0, 0, 0);
+  }
+.podcasts-column{
+    flex-direction: column;
+  }
+
+.podcasts-name{
+  color: rgb(167, 52, 193);
+  width: 400px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.podcasts-description{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  width: 500px;
+  margin: 10px 0;
+}
+.podcastPic{
+  border: solid rgb(0, 0, 0);
+  border-radius: 25px;
+  margin-left: 100px;
+  width: 250px;
+  height: 250px;
+}
+.podcasts-link{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  color: rgb(0, 0, 0);
+  font-style:none ;
+  font-size: 18px;
+  width: 500px;
+  margin: 10px 0;
+}
+.podcasts-link a{ 
+  color: rgb(0, 0, 0);
+}
+
+/* apps */
+.apps{
+  display: flex;
+  width: 1000px;
+  border-radius: 25px;
+  padding: 30px 100px;
+  height: auto;
+  background-color: #ffffff;
+  border: solid rgb(0, 0, 0);
+  flex-direction: column;
+  }
+.apps-name{
+  color: rgb(167, 52, 193);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.apps-description{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  width: 500px;
+  margin: 10px 0;
+}
+.apps-link{
+  font-family: 'Montserrat Alternates', sans-serif;  
+  color: rgb(0, 0, 0);
+  font-style:none ;
+  font-size: 18px;
+  width: 500px;
+  margin: 10px 0;
+}
+.apps-link a{ 
+  color: rgb(0, 0, 0);
+}
